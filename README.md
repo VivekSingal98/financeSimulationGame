@@ -1,2 +1,2 @@
-# cop290_Project3
-Game for social cause
+Hello,
+HomeSim is a social game to build financial knowledge in people.
