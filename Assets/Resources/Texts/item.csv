@@ -1,0 +1,4 @@
+name;type(h/v);size;is occupied
+cabinet;h;4,2,2;1
+sofa;h;5,2,3;1
+lamp;h;2,4,2;1
