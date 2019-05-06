@@ -26,4 +26,49 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BuyFridge.unity
     guid: f5afc5b9a6c4c448ca2ce988957de488
+  - enabled: 1
+    path: Assets/Scenes/BuyLight.unity
+    guid: c733c7e0a8cb02a49b873a1a1c68cfe1
+  - enabled: 1
+    path: Assets/Scenes/BuyFurniture.unity
+    guid: 464848f53b4118d4c948eec5db37ac68
+  - enabled: 1
+    path: Assets/Scenes/BuyInsurance.unity
+    guid: 903460e9151488d4899b729acece4462
+  - enabled: 1
+    path: Assets/Scenes/BuyFan.unity
+    guid: 728257b3cff548646b88fcb4c189e85a
+  - enabled: 1
+    path: Assets/Scenes/BuyClothes.unity
+    guid: ed505216744264a4da1c3053ea2379f7
+  - enabled: 1
+    path: Assets/Scenes/BuyElectronics.unity
+    guid: 5685013d81004c747801efdbf165891c
+  - enabled: 1
+    path: Assets/Scenes/BuyDecor.unity
+    guid: 7bff1e579e245bc4f9320b8f01197170
+  - enabled: 1
+    path: Assets/Scenes/BuyPlants.unity
+    guid: 38f58ddfe5d6b2d43b9842d64ac19216
+  - enabled: 1
+    path: Assets/Scenes/Invest.unity
+    guid: 8ef5b37389efa9d44a3fb28be19844a9
+  - enabled: 1
+    path: Assets/Scenes/BuyRealEstate.unity
+    guid: 2a488e753f5de2946b4a35127d8f0739
+  - enabled: 1
+    path: Assets/Scenes/BuyStocks.unity
+    guid: 1b1500619a19d0d41adbac2d0cfd5d1f
+  - enabled: 1
+    path: Assets/Scenes/BuyBanks.unity
+    guid: 66884314e289a194b8864d45de1922f4
+  - enabled: 1
+    path: Assets/Scenes/Loan.unity
+    guid: 6027bf3f905da2e43bcee8cfb8e497f3
+  - enabled: 1
+    path: Assets/Scenes/BuyHomeLoan.unity
+    guid: f7ff571fe7be3234e80cb6c7c81e8cc0
+  - enabled: 1
+    path: Assets/Scenes/BuyCarLoan.unity
+    guid: e306232b0980ca54ea98d00d6f60355b
   m_configObjects: {}

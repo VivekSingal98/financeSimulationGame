@@ -12,8 +12,8 @@ public class UpdateManager : MonoBehaviour
         if (dataOfGame.netSavings >= dataOfGame.statsOfItems[nameOfItem]["cost"])
         {
             dataOfGame.netSavings -= dataOfGame.statsOfItems[nameOfItem]["cost"];
-            dataOfGame.totCredits -= dataOfGame.statsOfItems[nameOfItem]["credit"];
-            dataOfGame.totSOF -= dataOfGame.statsOfItems[nameOfItem]["sol"];
+            dataOfGame.totCredits += dataOfGame.statsOfItems[nameOfItem]["credit"];
+            dataOfGame.totSOF += dataOfGame.statsOfItems[nameOfItem]["sol"];
             dataOfGame.inventory.Add(nameOfItem);
         }
 
