@@ -9,8 +9,15 @@ public class UpdateManager : MonoBehaviour
 
     public void purchaseItem()
     {
-        dataOfGame.savings -= dataOfGame.statsOfItems[nameOfItem+"_cost"];
-        dataOfGame.inventory.Add(nameOfItem);
+        if (dataOfGame.netSavings >= dataOfGame.statsOfItems[nameOfItem]["cost"])
+        {
+            dataOfGame.netSavings -= dataOfGame.statsOfItems[nameOfItem]["cost"];
+            dataOfGame.totCredits -= dataOfGame.statsOfItems[nameOfItem]["credit"];
+            dataOfGame.totSOF -= dataOfGame.statsOfItems[nameOfItem]["sol"];
+            dataOfGame.inventory.Add(nameOfItem);
+        }
+
+
     }
 
 }

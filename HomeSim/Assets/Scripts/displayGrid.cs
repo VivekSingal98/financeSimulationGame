@@ -19,7 +19,7 @@ public class displayGrid : MonoBehaviour
         {
             if (string.Compare(itemName, 0, prefixName, 0, prefixName.Length) == 0)
             {
-                Sprite sp = Resources.Load<Sprite>("images/" + itemName);
+                Sprite sp = Resources.Load<Sprite>("pictures/" + itemName);
                 GameObject NewObj = new GameObject(); //Create the GameObject Assets/images/car4.gif
                 Image NewImage = NewObj.AddComponent<Image>(); //Add the Image Component script
                 NewImage.sprite = sp; //Set the Sprite of the Image Component on the new GameObject

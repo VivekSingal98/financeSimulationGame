@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BuyCommodities.unity
     guid: 4c9c9494a716d45ecbf27fa28ddfa6d6
+  - enabled: 1
+    path: Assets/Scenes/BuyAc.unity
+    guid: 4720df90b62d14ba2b4ea40cc9d1c672
+  - enabled: 1
+    path: Assets/Scenes/BuyFridge.unity
+    guid: f5afc5b9a6c4c448ca2ce988957de488
   m_configObjects: {}
