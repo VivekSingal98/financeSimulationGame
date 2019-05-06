@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{90A0AC6F-3C0D-276C-5EDA-A7E464269BB7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/level.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/dataOfGame.cs">
     <Files>
-      <File FileName="Assets/Scripts/userDetails.cs" Line="8" Column="5" />
-      <File FileName="Assets/Scripts/UpdateManager.cs" Line="19" Column="9" />
-      <File FileName="Assets/Scripts/dataOfGame.cs" Line="24" Column="123" />
-      <File FileName="Assets/Scripts/displayGrid.cs" Line="22" Column="66" />
-      <File FileName="Assets/Scripts/GetData.cs" Line="15" Column="41" />
+      <File FileName="Assets/Scripts/userDetails.cs" Line="16" Column="8" />
+      <File FileName="Assets/Scripts/level.cs" Line="43" Column="23" />
+      <File FileName="Assets/Scripts/restartGame.cs" Line="16" Column="35" />
+      <File FileName="Assets/Scripts/GetData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/dataOfGame.cs" Line="56" Column="39" />
+      <File FileName="Assets/Scripts/UpdateManager.cs" Line="17" Column="76" />
+      <File FileName="Assets/Scripts/displayGrid.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ChangeScene.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/level.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/dontDestroy.cs" Line="14" Column="5" />
+      <File FileName="Assets/Scripts/levelAnalysis.cs" Line="44" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
