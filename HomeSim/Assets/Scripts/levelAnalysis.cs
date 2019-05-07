@@ -80,7 +80,7 @@ public class levelAnalysis : MonoBehaviour
             solMessage.text = "great work in sustaining good standards of living";
         }
 
-
+        dataOfGame.currLevel++;
     }
 
 }

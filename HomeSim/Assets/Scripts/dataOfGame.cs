@@ -11,8 +11,9 @@ public class levelTarget
     public float sol;
     public float salary;
     public float monthEndExpenses;
+    public float damage_flood, damage_inflation, damage_theft, damage_hospital, damage_accident, damage_maintainence;
     public Dictionary<string, float> damages;
-    public levelTarget(float f, float a, float b, float c, float d,float e)
+    public levelTarget(float f, float a, float b, float c, float d,float e,float d1, float d2, float d3, float d4, float d5, float d6)
     {
         levelNo = f;
         credits = a;
@@ -20,7 +21,9 @@ public class levelTarget
         sol = c;
         monthEndExpenses = d;
         salary = e;
-        damages = new Dictionary<string, float>();
+        damage_flood = d1; damage_inflation = d2; damage_accident = d3; damage_theft = d4; damage_hospital = d5; damage_maintainence = d6;
+
+        //        damages = new Dictionary<string, float>();
     }
 }
 public static class dataOfGame
@@ -33,7 +36,7 @@ public static class dataOfGame
 
 
     public static List<string> inventory = new List<string>();
-    public static Dictionary<string, Dictionary<string,float>> statsOfItems = new Dictionary<string, Dictionary<string,float>>
+    public static Dictionary<string, Dictionary<string, float>> statsOfItems = new Dictionary<string, Dictionary<string, float>>
     {
         { "car_diesel" , new Dictionary<string,float>{{"cost", 100000},{"credit", -50},{ "sol",20},{ "carbon_emission",200} } },
         { "car_petrol" , new Dictionary<string,float>{{"cost", 120000},{"credit", -20},{ "sol",20},{ "carbon_emission",120} } },
@@ -101,9 +104,18 @@ public static class dataOfGame
 
     public static List<levelTarget> levelInfo = new List<levelTarget>
     {
-        { new levelTarget(1,200,15000,10,5000,60000) },
+        { new levelTarget(1,200,15000,10,5000,60000,0,0,0,0,0,0) },
+        { new levelTarget(2,500,30000,15,8000,100000,10000,0,0,0,0,0) },
+        { new levelTarget(3,1000,55000,30,15000,150000,0,5000,5000,0,0,0) },
+        { new levelTarget(4,2500,130000,70,40000,300000,0,0,0,10000,5000,3000) },
     };
 
+//    levelInfo.ElementAt(1).damages.Add(new KeyValuePair<string,float>("damage_flood",10000));
+//    levelInfo[2].damages.Add(new KeyValuePair<string, float>("damage_inflation",5000));
+//    levelInfo[2].damages.Add(new KeyValuePair<string, float>("damage_accident",5000));
+//    levelInfo[3].damages.Add(new KeyValuePair<string, float>("damage_theft",10000));
+//    levelInfo[3].damages.Add(new KeyValuePair<string, float>("damage_hospital",5000));
+//    levelInfo[3].damages.Add(new KeyValuePair<string, float>("damage_maintainance",3000));
 
 
 }

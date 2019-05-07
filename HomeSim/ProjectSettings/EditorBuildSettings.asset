@@ -77,4 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Loan.unity
     guid: f110b7561b8b54fbabd5a5b62a3cf693
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 88c20677e27ecd343a70579bf5fb07aa
   m_configObjects: {}
